@@ -148,12 +148,6 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\HearthStorm.Models\HearthStorm.Models.csproj">
-      <Project>{4f44167e-41de-4c4e-b13d-7c0b9d468c75}</Project>
-      <Name>HearthStorm.Models</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Views\Admin\AdminList.cshtml" />
   </ItemGroup>
   <PropertyGroup>
