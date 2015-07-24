@@ -5,7 +5,7 @@ using System.Text;
 
 namespace HearthStorm.Models
 {
-    public class Class1
+    public class Admin
     {
     }
 }

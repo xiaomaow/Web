@@ -150,6 +150,12 @@
   <ItemGroup>
     <Content Include="Views\Admin\AdminList.cshtml" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HearthStorm.Models\HearthStorm.Models.csproj">
+      <Project>{f8e7ccba-b7b9-4b60-a7e6-d62ca818011f}</Project>
+      <Name>HearthStorm.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
