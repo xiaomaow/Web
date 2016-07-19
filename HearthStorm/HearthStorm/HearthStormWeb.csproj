@@ -148,13 +148,13 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\HearthStorm.Models\HearthStorm.Models.csproj">
-      <Project>{4f44167e-41de-4c4e-b13d-7c0b9d468c75}</Project>
-      <Name>HearthStorm.Models</Name>
-    </ProjectReference>
+    <Content Include="Views\Admin\AdminList.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Admin\AdminList.cshtml" />
+    <ProjectReference Include="..\HearthStorm.Models\HearthStorm.Models.csproj">
+      <Project>{f8e7ccba-b7b9-4b60-a7e6-d62ca818011f}</Project>
+      <Name>HearthStorm.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
